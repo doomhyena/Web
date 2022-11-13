@@ -1,2 +1,2 @@
 # Web
-Befejezetlen munkáim egyike UwU
+Befejezetlen munkáim egyike :(
