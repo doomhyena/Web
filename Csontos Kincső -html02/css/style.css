@@ -63,3 +63,42 @@ footer {
     color: #fff;
     width: 100%;
 }
+
+.animate {
+    animation: animateTable 1s ease-in-out;
+}
+
+@keyframes animateTable {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.orarend {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.orarend li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.orarend li:last-child {
+    border-bottom: none;
+}
+
+.orarend .idopont {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.orarend .tantargy {
+    font-size: 16px;
+}
